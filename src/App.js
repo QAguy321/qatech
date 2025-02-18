@@ -1,19 +1,19 @@
-import './App.css';
+import React from 'react';
+import './index.css';
+import Hero from './components/Hero/Hero';
+import Services from './components/Services/Services';
+import Testimonials from './components/Testimonials/Testimonial';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-        Test page for Boss
-        Adding another line to test the changes
-        </p>
-        <p>
-        Goal is to develop this website as my boss expects it to be.
-        </p>
-
-      </header>
+    <div className="font-sans bg-gray-50">
+      <Hero />
+      <Services />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }
