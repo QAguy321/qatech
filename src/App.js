@@ -8,6 +8,7 @@ function App() {
         
         <p>
         Test page for Boss
+        Adding another line to test the changes
         </p>
       </header>
     </div>
