@@ -9,6 +9,10 @@ function App() {
         Test page for Boss
         Adding another line to test the changes
         </p>
+        <p>
+        Goal is to develop this website as my boss expects it to be.
+        </p>
+
       </header>
     </div>
   );
